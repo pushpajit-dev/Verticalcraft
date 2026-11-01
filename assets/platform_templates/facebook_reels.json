@@ -1,0 +1,11 @@
+{
+  "platform": "facebook_reels",
+  "display_name": "Facebook Reels",
+  "canvas": { "width": 1080, "height": 1920 },
+  "safe_zones": {
+    "top_bar": { "x": 0, "y": 0, "width": 1080, "height": 110, "danger": true },
+    "bottom_bar": { "x": 0, "y": 1700, "width": 1080, "height": 220, "danger": true },
+    "safe_content_area": { "x": 0, "y": 110, "width": 1080, "height": 1590, "danger": false }
+  },
+  "recommended_caption_y": 0.72
+}

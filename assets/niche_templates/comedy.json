@@ -1,0 +1,8 @@
+{
+  "niche": "comedy",
+  "display_name": "Comedy",
+  "emoji": "😂",
+  "signal_weights": { "audio_energy": 0.30, "scene_cut": 0.10, "expression": 0.35, "llm_score": 0.15, "gemini_score": 0.10 },
+  "keywords": ["hahaha", "lol", "bruh", "bro", "nah", "wait what", "আরে", "ভাই", "কি হইলো", "মিয়া"],
+  "recommended_caption_mode": "short"
+}

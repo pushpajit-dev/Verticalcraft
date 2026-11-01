@@ -1,0 +1,42 @@
+[project]
+name = "verticalcraft-backend"
+version = "0.1.0"
+description = "VerticalCraft AI Video Editing Backend"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.111.0",
+    "uvicorn[standard]>=0.30.0",
+    "python-multipart>=0.0.9",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.3.0",
+    "aiofiles>=23.2.1",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.1",
+    "loguru>=0.7.2",
+    "yt-dlp>=2024.8.1",
+    "ffmpeg-python>=0.2.0",
+    "opencv-python>=4.10.0",
+    "librosa>=0.10.2",
+    "soundfile>=0.12.1",
+    "numpy>=1.26.0",
+    "scenedetect[opencv]>=0.6.4",
+    "openai-whisper>=20231117",
+    "torch>=2.3.0",
+    "torchaudio>=2.3.0",
+    "mediapipe>=0.10.14",
+    "demucs>=4.0.1",
+    "ollama>=0.3.0",
+    "google-genai>=1.0.0",
+    "spacy>=3.7.4",
+    "langdetect>=1.0.9",
+    "google-api-python-client>=2.139.0",
+    "google-auth-oauthlib>=1.2.1",
+    "tweepy>=4.14.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2.0", "pytest-asyncio>=0.23.7", "ruff>=0.5.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,33 @@
+# VerticalCraft AI Studio - Python Requirements
+# Web Framework & Server
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.8.0
+pydantic-settings>=2.3.0
+aiofiles>=23.2.1
+httpx>=0.27.0
+python-dotenv>=1.0.1
+loguru>=0.7.2
+
+# Video Processing & Computer Vision
+opencv-python>=4.10.0
+scenedetect[opencv]>=0.6.4
+ffmpeg-python>=0.2.0
+static-ffmpeg>=2.7
+yt-dlp>=2024.8.1
+
+# AI Transcription & Speech
+openai-whisper>=20231117
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# Audio Processing & Stem Separation
+librosa>=0.10.2
+soundfile>=0.12.1
+numpy>=1.26.0
+demucs>=4.0.1
+
+# Tracking & Utilities
+mediapipe>=0.10.14

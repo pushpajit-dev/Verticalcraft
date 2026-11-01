@@ -1,0 +1,11 @@
+{
+  "platform": "youtube_shorts",
+  "display_name": "YouTube Shorts",
+  "canvas": { "width": 1080, "height": 1920 },
+  "safe_zones": {
+    "top_bar": { "x": 0, "y": 0, "width": 1080, "height": 120, "danger": true },
+    "bottom_bar": { "x": 0, "y": 1720, "width": 1080, "height": 200, "danger": true },
+    "safe_content_area": { "x": 0, "y": 120, "width": 1080, "height": 1380, "danger": false }
+  },
+  "recommended_caption_y": 0.72
+}

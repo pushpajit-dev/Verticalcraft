@@ -1,0 +1,8 @@
+{
+  "niche": "gaming",
+  "display_name": "Gaming",
+  "emoji": "🎮",
+  "signal_weights": { "audio_energy": 0.25, "scene_cut": 0.30, "expression": 0.15, "llm_score": 0.20, "gemini_score": 0.10 },
+  "keywords": ["clutch", "win", "kill", "combo", "rage", "fail", "glitch", "epic", "insane", "no way"],
+  "recommended_caption_mode": "short"
+}
